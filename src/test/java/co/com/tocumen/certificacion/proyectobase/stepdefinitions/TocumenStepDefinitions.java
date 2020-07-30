@@ -23,13 +23,13 @@ public class TocumenStepDefinitions {
         OnStage.theActorCalled("YO").wasAbleTo(GoTo.TocumenPanama());
     }
 
-    @When("^Accedo a objetos extraviados$")
+    @When("^Accedo a Viajar con menores$")
     public void accedoAlCursoRecursosAutomatizaciónBancolombia() throws Exception {
         OnStage.theActorCalled("YO").attemptsTo(SelectOpcion.ViajandoConMenores());
     }
 
 
-    @Then("^Verifico pdf$")
+    @Then("^Verifico Pagina web$")
     public void verificoTituloDelCurso() throws Exception {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe()));
     }
