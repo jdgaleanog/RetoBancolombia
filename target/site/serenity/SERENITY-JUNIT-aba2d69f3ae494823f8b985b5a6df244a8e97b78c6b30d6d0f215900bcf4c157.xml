@@ -12,6 +12,6 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JGALEA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 7ae8cc48f7c69f859e1d821980dc213c&#13;
 co.com.choucair.certificacion.proyectobase.tasks.Search.performAs(Search.java:19)&#13;
-co.com.choucair.certificacion.proyectobase.stepdefinitions.ChoucairAcadmyStepDefinitions.accedoAlCursoRecursosAutomatizaciónBancolombia(ChoucairAcadmyStepDefinitions.java:29)&#13;
+TocumenStepDefinitions.accedoAlCursoRecursosAutomatizaciónBancolombia(ChoucairAcadmyStepDefinitions.java:29)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>
